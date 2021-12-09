@@ -1,0 +1,52 @@
+
+#slider-block1{
+    background-color: #F46EBE !important;
+    background: url("https://www-growth.scdn.co/static/home/wrapped-homepage-banner-graphic-desktop.svg");
+    min-width:1200px;
+    background-position:bottom -428px right -1200px;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+
+#slider-block1 article{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    align-items: center;
+    min-height: 630px;
+}
+
+#slider-block1 article .sliderLeft1{
+    flex-basis: 50%;
+}
+#slider-block1 article .sliderRight1{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.sliderLeft1{
+    color: #202f72;
+    margin: 80px 0;
+
+}
+.sliderLeft1 h4{
+    padding-bottom: 50px;
+    font-size: 14px;
+}
+.sliderLeft1 h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+}
+.images{
+    display: flex;
+}
+.images .img2{
+    width: 151px;
+}

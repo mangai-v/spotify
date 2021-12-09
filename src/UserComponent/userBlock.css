@@ -1,0 +1,119 @@
+
+#userBlock{
+    /* background-color: black; */
+    height: 100vh;
+}
+#userBlock article{
+    display: flex;
+    height: 100vh;
+}
+/* left block */
+.userLeftBlock{
+    display: flex;
+    flex-basis: 20%;
+    height: 100vh;
+    background: black;
+}
+.logo{
+    padding: 25px;
+    color: white;
+}
+.logo svg{
+    fill: white;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.leftcontent{
+    display: flex;
+    justify-content: center;
+}
+.leftcontent ul li{
+    list-style: none;
+    color: white;
+}
+.leftcontent ul li{
+    list-style: none;
+    color: white;
+}
+.leftcontent ul li a:hover{
+    color: white;
+}
+a{
+    text-decoration: none;
+
+    color:  rgb(194, 193, 193);
+
+}
+.userRightBlock{
+    flex-basis: 80%;
+    height: 100vh;
+    background: rgba(17, 17, 17, 0.986) !important;
+}
+
+.leftcontent ul li {
+    width:200px;
+    height: 34px;
+    font-size: 12px;
+    margin: 4px 3px;
+    color: rgb(194, 193, 193)
+
+}
+.leftcontent ul li span {
+    color:  rgb(194, 193, 193);
+    font-size: 20px;
+}
+.leftcontent ul li span{
+    margin-right: 17px;
+}
+
+#gap{
+    margin-top: 25px;
+}
+#linelighter{
+    border-top: 0.3px solid rgb(112, 109, 109);
+    width:100%;
+}
+#myplay{
+    font-size: 12px;
+    margin: 18px 3px;
+}
+#myinstall{
+    font-size: 12px;
+    margin: 210px 3px;
+}
+.userRightBlock nav{
+    width:100%;
+    background: black;
+    height: 60px;
+    display: flex;
+   
+    
+}
+.userRightBlock nav button{
+    border:1px solid rgb(179, 176, 176);
+    border-radius: 30px;
+    width: 140px;
+    height: 33px;
+    background: black;
+    color:white;
+    margin-top:10px;
+    margin-left: 800px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.userRightBlock nav h3{
+    
+    background: black;
+    height: 60px;
+    display: flex;
+   color: white;
+   font-size: 13px;
+   justify-content: center;
+    padding-top: 20px;
+}
